@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment directories
+venv/
+env/
+ENV/
+
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS specific
+.DS_Store
+
+# Large data files
+*.csv
+*.xlsx
+*.parquet
+*.pickle
+*.h5
+*.hdf5
+
+# Exceptions for sample data
+!data/sample/*.csv
+!data/sample/*.xlsx
+
+# Model files
+*.pkl
+*.joblib
+*.pt
+*.h5
+*.keras
+*.onnx
+
+# Logs
+logs/
+*.log
+
+# DVC
+.dvc/
+
+# MLflow
+mlruns/
+
+# Documentation build
+docs/_build/

@@ -1,0 +1,38 @@
+# Core Data Science
+numpy
+pandas
+polars
+scikit-learn>=1.0.0
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Machine Learning
+xgboost
+lightgbm
+catboost
+
+# Deep Learning (consider removing if not needed)
+tensorflow
+torch
+
+# NLP
+transformers
+nltk
+spacy
+
+# Utilities
+tqdm
+
+# Jupyter
+jupyter
+jupyterlab
+ipywidgets
+
+# ML Experiment Tracking & Testing
+mlflow
+optuna
+pytest
+
